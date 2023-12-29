@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Task List</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="filter">
+          <button id="az-filter">A-Z sırala</button>
+          <button id="za-filter">Z-A sırala</button>
+          <button id="date-filter">Tarixə görə</button>
+        </div>
+        <div class="tasks">
+          <ul></ul>
+        </div>
+        <div class="add">
+          <input type="text" placeholder="Taskın adı" id="name" />
+          <input type="date" id="date" />
+          <button id="add" onclick="Add()">Əlavə et</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
